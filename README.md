@@ -61,49 +61,81 @@ Inspection & Comparison:
     git log --summary	                                         View changes (detailed)
     git diff [source branch] [target branch}	                 Preview changes before merging
     
--- ===============================================================================================================================
+-- ===================================================================================================
 
 # Sample Git Commands:
 
 1.Create folder in our Local system(STEM)
+
 2. Clone the repository into local machine folder
+    
     $ git clone https://arunbanala@bitbucket.org/stems-classes.git
+
 3. Goto that folder
-       $ cd stems-classes
+    
+    $ cd stems-classes
+
 4. Goto the branch(dev) from master
+    
     $ git checkout dev
+
 5. Initialize the existing Git repository in D:/STEMS/stems-classes/.git/
-        $ git init
+
+    $ git init
+
 6. Adding all the files to the repository
-     $git add .
+
+    $git add .
+
 7. Commiting the code to repository
-      $git commit -m "initial commit"
+
+    $git commit -m "initial commit"
+
 8. push all the files to central repository
+
     $git push -u origin --all
 
 ----------------------------------------------------------------------
 
 ->To download records from Github to local machine
+
 1.Launch git bash in the folder where we want to store or send the file
+
 2. git init
+
 3. git clone https://github.com/ArunKumarBanala /ArunKumar Banala.github.io.git
 
+
 ->To send files from local machine to the github repository to the particular branch.
+
 1. git remote add origin https://github.com/ArunKumarBanala /ArunKumarBanala.github.io.git
+
 2. git status
+
 3. git pull origin master
+
 4. git status
+
 5. git add -A  
-     this is to add all files to the github into particular branch
+
+    this is to add all files to the github into particular branch
+
 6. git commit -a -m "updated pages"
+
 7. git status
+
 8. git push --set-upstream origin master (to store into server)
-Git push
+    
+    Git push
 ---------------------------------
+
 Everyday tasks in Company
--> git pull
--> git checkout -b 'practice_Angularjs' (to create branch)
--> git push --set-upstream origin practice_Angularjs  (to update automatically in the server while doing in the local system)
+
+1. git pull
+
+2. git checkout -b 'practice_Angularjs' (to create branch)
+
+3. git push --set-upstream origin practice_Angularjs  (to update automatically in the server while doing in the local system)
 
 
 
